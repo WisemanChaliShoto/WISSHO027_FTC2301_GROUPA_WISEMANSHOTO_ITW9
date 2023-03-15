@@ -5,8 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Resume</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <script src="https://kit.fontawesome.com/705962de56.js"
+     crossorigin="anonymous"></script>
 </head>
 <body>
+<header>
+
+    <div class="container">
+        <h1>Wiseman Chali Shoto</h1>
+        <p> <i class="fa-solid fa-user-tie"></i> Front End Software Developer</p>
+        <h2>About</h2>
+        <p>I am a highly competent Software Developer with a proven track record in designing websites,
+            networking and managing databases. I have strong Software Development skills as well as excellent
+            interpersonal skills, enabling me to interact with a wide range of clients. I am eager to be
+            challenged in order to grow and further improve my IT skills. My greatest passion is in life is
+            using my technical know-how to benefit other people and organisations.</p>
+
+    </div>
+
+</header>
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="#Education"> Education </a></li>
+            <li><a href="#Experience"> Experience </a></li>
+            <li><a href="#Contact Details"> Contact details </a></li>
+            <li> <a href="#Skills"> Skills </a></li>
+
+        </ul>
+    </div>
+
+</nav>
+<main>
+    <div class="container">
+        <div id="Education">
+            <h1> <i class="fa-sharp fa-solid fa-graduation-cap"></i> Education</h1>
+            <h2>Certificate in Software Development </h2>
+            <p><a href="https:www.codespace.co.za" target="_blank">Codespace Academy</a> 2023</p>
+            <p>Researching, designing, implementing, and managing software programs. Testing and evaluating new
+                programs. Identifying areas for modification in existing programs and subsequently developing these
+                modifications. Writing and implementing efficient code.</p>
+                
+                <h2>National Certificate in Banking (NQF5)</h2>
+                <p><a href="https://noviaone.com" target="_blank">Novia One Group</a> 2023</p>
+                <p>The National Certificate in Banking (NQF 5) explores general banking concepts, including the banking
+                    regulatory environment, sales and marketing strategies, financial management and investment
+                    products.</p>
+
+        </div>
+        <div id="Experience">
+            <h1> <i class="fa-sharp fa-solid fa-briefcase"></i> Experience</h1>
+            <h2>Junior Software Developer </h2>
+            <p><a href="https://Absa.co.za" target="_blank">Absa</a> 2023</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, maiores odit harum magni unde similique. Esse incidunt eaque vitae corrupti nisi. Sequi, commodi harum. Illum soluta quisquam non exercitationem ipsam adipisci quibusdam aliquam similique dolor? Perferendis minima rem quaerat delectus at ipsum, quod iure labore nobis officia dolor recusandae! Soluta sequi est consectetur omnis in, similique eveniet eligendi ipsam vero ratione error corporis nostrum quaerat quae deleniti voluptatum. Dolorem, labore!</p>
+        </div>
+        
+        <div>
+        <h2>Contact Centre Agent </h2>
+
+            <p><a href="https://Absa.co.za" target="_blank">Liberty Group SA</a> 2018-2021</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, maiores odit harum magni unde similique. Esse incidunt eaque vitae corrupti nisi. Sequi, commodi harum. Illum soluta quisquam non exercitationem ipsam adipisci quibusdam aliquam similique dolor? Perferendis minima rem quaerat delectus at ipsum, quod iure labore nobis officia dolor recusandae! Soluta sequi est consectetur omnis in, similique eveniet eligendi ipsam vero ratione error corporis nostrum quaerat quae deleniti voluptatum. Dolorem, labore!</p>
+        </div>
+
+
+    </div>
+
+</main>
+<aside>
+    <div class="container">
+        
+        <div class="image">
+        <picture>
+            <source srcset="./Images/me2.jpg" media="(max-width: 500px)">
+            <source srcset="./Images/me.jpg" media="(max-width: 800px)">
+
+            <img src="./Images/me.jpg" height="300" alt="This is a picture of Charlie" title="Wiseman Chali Shoto">
+        </div>
+    </picture>
+    
+    <hr>
+    </div>
+    <div class="container">
+    <div id="Skills">
+
+        <ul class="ul">
+            <h1>Skills</h1>
+            <hr>
+            <li>Javascript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Web Programming</li>
+            <li>Analytical Thinking</li>
+            <li>Teamwork</li>
+        </ul>
+
+    </div> 
+    </div>
+    <div class="container">
+        <p>
+             <h2 id="Contact Details">Contact Details</h2>
+            </p>
+            <hr>
+            <ul class="ul">
+
+                <li> <i class="fa-solid fa-phone"></i> 078-265-4574 </li>
+            <li><i class="fa-sharp fa-solid fa-envelope"></i> Charlie.Shoto@gmail.com</li>
+        <li><i class="fa-sharp fa-solid fa-location-dot"></i>  Cape Town </li>
+        </ul>
+
+    </div>
+    <div>
+        <form class="form" action="https://formsubmit.co/Charlie.Shoto@gmail.com" method="post"></form>
+        <fieldset>
+            <legend>Contact Us</legend>
+        <div> 
+            <label for="name">Name:</label>
+        <input type="text" name="name" id="Name"  required > </div>
+       
+       <div><label for="Surname">Surname:</label>
+        
+        <input type="text" name="Surname" id="Surname" required ></div> 
+
+       <div>
+        <div><label for="Email">Email:</label>
+        
+            <input type="text" name="Email" id="Email"  required ></div> 
+    
+           <div>
+            <div>
+                <div><label for="Cellnumber">Cellnumber:</label>
+                
+                    <input type="text" name="Cellnumber" required ></div> 
+            
+                   <div>
+                    Preferred Communication
+            </div>
+                    <div>
+                        <label for="Cellphone">Cellphone</label>
+                        <input type="radio" name="Preferred Communication" id="Cellphone" value="Cellphone">
+                    </div>
+                    <label for="Email">Email</label>
+                    <input type="radio" name="Preferred Communication" id="Email" value="Email">
+                    <div>
+                        <select name="Subject" id="Subject">
+                            <option value="a ">Recruiter</option>
+                            <option value="Website Feedback">Website Feedback</option>
+                            <option value="Interview Opportunity">Interview Opportunity</option>
+                        </select>
+                        <div>
+                        <label for="Message">Message</label>
+                        <div>
+                        <Textarea id="Message" name="Message"></Textarea>
+                    </div>
+                        </div>
+                        
+
+                    </div>
+         <button type="submit">Submit</button> </div>
+        </fieldset>
+        </form>
+
+    </div>
+
+
+</aside>
+<footer> <div class="container">
+
+        <p> Wiseman Chali Shoto &copy; 2023 </p>
+        <ul class="ul">
+
+            <li> <a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li> <a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+
+    </ul>
+   
+
+
+
+</div>
+
+</footer>
     
 </body>
 </html>

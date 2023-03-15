@@ -1,4 +1,120 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+hr{
+    margin-bottom: 2em;
+    
+}
+
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 16px;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+    'aside header header'
+    'aside nav nav'
+    'aside main main'
+    'aside footer footer';
+  
+}
+header{
+    background-color: #95B0B6 ;
+
+}
+aside{
+    background-color: #324B50;
+    color: lightgray;
+}
+nav{
+    background-color: #D7E9E4;
+    
+    
+}
+
+main{
+    background-color: #E6F4F1;
+}
+footer{
+    background-color: #95B0B6;
+}
+
+header,
+footer,
+main,
+aside,
+nav {
+
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+
+h2,h1{
+    padding-top: 10px;
+}
+ul {
+    list-style-type: none;
+    
+}
+
+
+.image{
+    margin-right: 30px;
+    width: 100%;
+}
+
+.image img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 100%;
+}
+
+
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #000;
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
 }
