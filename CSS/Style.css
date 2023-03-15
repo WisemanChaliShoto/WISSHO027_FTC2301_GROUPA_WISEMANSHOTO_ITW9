@@ -9,6 +9,7 @@ hr{
     
 }
 
+
 body  {
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
@@ -33,7 +34,7 @@ aside{
 }
 nav{
     background-color: #D7E9E4;
-    
+   
     
 }
 
@@ -57,10 +58,26 @@ nav {
 
 h2,h1{
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 ul {
     list-style-type: none;
     
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+      
+}
+
+a:hover{
+    color: red;
+}
+nav li{
+    display: inline-block;
+    padding-right: 50px;
 }
 
 
@@ -117,4 +134,8 @@ aside{
 }
 footer{
     grid-area: footer;
+}
+
+.copyright .ul{
+    display: flex;
 }
