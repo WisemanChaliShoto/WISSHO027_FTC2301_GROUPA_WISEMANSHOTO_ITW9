@@ -11,11 +11,12 @@ hr{
 
 
 body  {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #000;
     font-size: 16px;
     height: 100vh;
 
+   /** Creating a lay out for the website **/
     display: grid;
     grid-template-areas: 
     'aside header header'
@@ -24,6 +25,43 @@ body  {
     'aside footer footer';
   
 }
+
+header{
+    grid-area: header;
+    background-image:url(../Images/code.jpg);
+    color:white;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+
+header,
+footer,
+main,
+aside,
+nav {
+
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
 header{
     background-color: #95B0B6 ;
 
@@ -45,16 +83,13 @@ footer{
     background-color: #95B0B6;
 }
 
-header,
-footer,
-main,
-aside,
-nav {
-
-    padding: 20px;
-    border: skyblue 1px solid;
+footer li{
+    display: inline-block;
 }
 
+p{
+    padding-bottom: 5px;
+}
 
 h2,h1{
     padding-top: 10px;
@@ -82,7 +117,7 @@ nav li{
 
 
 .image{
-    margin-right: 30px;
+    
     width: 100%;
 }
 
@@ -92,6 +127,7 @@ nav li{
   border-radius: 50%;
   border: 2px solid white;
   height: 100%;
+  
 }
 
 
@@ -117,25 +153,3 @@ label{
 
 
 
-header{
-    grid-area: header;
-}
-
-nav{
-    grid-area: nav;
-}
-
-main{
-    grid-area: main;
-}
-
-aside{
-    grid-area: aside;
-}
-footer{
-    grid-area: footer;
-}
-
-.copyright .ul{
-    display: flex;
-}
