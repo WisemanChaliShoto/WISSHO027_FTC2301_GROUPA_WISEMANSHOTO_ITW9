@@ -47,6 +47,8 @@ footer{
     grid-area: footer;
 }
 
+
+
 header,
 footer,
 main,
@@ -55,6 +57,9 @@ nav {
 
     padding: 20px;
     border: skyblue 1px solid;
+}
+footer li{
+    display: inline-block;
 }
 
 .copyright {
@@ -79,12 +84,11 @@ nav{
 main{
     background-color: #E6F4F1;
 }
-footer{
-    background-color: #95B0B6;
-}
 
-footer li{
+
+header li{
     display: inline-block;
+    
 }
 
 p{
@@ -150,6 +154,16 @@ label{
     margin-top: 5px;
 }
 
+
+footer{
+    background-color: #95B0B6;
+}
+
+
+}
+
+
+    
 
 
 
